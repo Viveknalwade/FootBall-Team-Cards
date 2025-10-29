@@ -12,13 +12,4 @@ User Stories:
 9.	The isCaptain property should have value of a boolean. One of the players should have their isCaptain property set to true.
 10.	You should display the headCoach, team and year values on the page. These values should be displayed in the HTML elements with the id values of head-coach, team and year.
 11.	You should display the players data on the page inside the #player-cards element, each player should be displayed in a div with class of player-card, and nested in it, an h2 containing the name of the player, and (Captain) in case of the player being captain, and a p containing Position: and the position of the player.
-Here is an example of how the HTML should look like:
-<div class="player-card">
-  <h2>Sergio Batista</h2>
-  <p>Position: midfielder</p>
-</div>
-<div class="player-card">
-  <h2>(Captain) Diego Maradona</h2>
-  <p>Position: midfielder</p>
-</div>
 12.	When the dropdown menu is used to select one of the positions, only the .player-card elements for players of that position should be present. If the "All Players" option is selected, then all of the players should display on the page.
